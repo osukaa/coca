@@ -90,7 +90,7 @@ a,
 a.ui-state-hover,
 input.ui-state-hover,
 button.ui-state-hover {
-  color: #5382bf !important;
+  color: #471219 !important;
   cursor: pointer !important;
   text-decoration: none;
   -moz-outline-style: none;
@@ -391,7 +391,7 @@ td {
 }
 
 #g-banner {
-  background-color: #e8e8e8;
+  background-color: #9CD9D8;
   border-bottom: 1px solid #ccc;
   min-height: 5em;
   padding: 1em 20px;
@@ -409,7 +409,7 @@ td {
 }
 
 #g-footer {
-  background-color: #e8e8e8;
+  background-color: #9CD9D8;
   border-top: 1px solid #ccc;
   margin-top: 20px;
   padding: 10px 20px;
@@ -476,7 +476,7 @@ td {
 }
 
 #g-content #g-album-grid .g-album {
-  background-color: #e8e8e8;
+  background-color: white;
 }
 
 #g-content #g-album-grid .g-album h2 span.g-album {
@@ -872,11 +872,11 @@ ul.sf-menu li li li.sfHover ul {
 
 .sf-menu li li,
 .sf-menu li li ul li {
-  background-color: #bdd2ff;
+  background-color: #BEE6E5;
 }
 
 .sf-menu li:hover {
-  background-color: #dfe9ff;
+  background-color: #BEE6E5;
 }
 
 /* jQuery UI Dialog ~~~~~~~~~~~~~~~~~~~~~~ */
