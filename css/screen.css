@@ -20,6 +20,7 @@
 
 body, html {
   background-color: #ccc;
+  background: url(../images/shattered.png) top left repeat;
   font-family: 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
