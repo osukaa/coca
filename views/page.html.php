@@ -90,14 +90,13 @@
       <div id="g-header" class="ui-helper-clearfix">
         <div id="g-banner">
           <? if ($header_text = module::get_var("gallery", "header_text")): ?>
-          <?= $header_text ?>
+          <div class="header-text"><?= $header_text ?></div>
           <? else: ?>
           <a id="g-logo" class="g-left" href="<?= item::root()->url() ?>" title="<?= t("go back to the Gallery home")->for_html_attr() ?>">
             <img width="107" height="48" alt="<?= t("Gallery logo: Your photos on your web site")->for_html_attr() ?>" src="<?= url::file("lib/images/logo.png") ?>" />
           </a>
           <? endif ?>
           <?= $theme->user_menu() ?>
-          <?= $theme->header_top() ?>
 
           <!-- hide the menu until after the page has loaded, to minimize menu flicker -->
           <div id="g-site-menu" style="visibility: hidden">
@@ -123,17 +122,10 @@
       </div>
       <div id="bd">
         <div id="yui-main">
-          <div class="yui-b">
             <div id="g-content" class="yui-g">
               <?= $theme->messages() ?>
               <?= $content ?>
             </div>
-          </div>
-        </div>
-        <div id="g-sidebar" class="yui-b">
-          <? if ($theme->page_subtype != "login"): ?>
-          <?= new View("sidebar.html") ?>
-          <? endif ?>
         </div>
       </div>
       <div id="g-footer" class="ui-helper-clearfix">
