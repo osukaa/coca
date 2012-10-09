@@ -19,7 +19,7 @@
  **********************************************************************/
 
 body, html {
-  background-color: #ccc;
+  background-color: #556270;
   background: url(../images/shattered.png) top left repeat;
   font-family: 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
@@ -90,7 +90,7 @@ a,
 a.ui-state-hover,
 input.ui-state-hover,
 button.ui-state-hover {
-  color: #88C425 !important;
+  color: #C7F464 !important;
   cursor: pointer !important;
   text-decoration: none;
   -moz-outline-style: none;
@@ -378,10 +378,9 @@ td {
 
 /* View container ~~~~~~~~~~~~~~~~~~~~~~~~ */
 
-.g-view {
-  background: url(../images/strange_bullseyes.png) top left repeat;
-  background-color: #1B676B;
-  border: 1px solid #1B676B;
+.g-view {  
+  background-color: white;
+  border: 1px solid #ccc;
   border-bottom: none;
 }
 
@@ -392,8 +391,8 @@ td {
 }
 
 #g-banner {
-  background-color: #1B676B;
-  border-bottom: 1px solid #ccc;
+  background-color: #556270;
+  border-bottom: 1px solid #FF6B6B;
   min-height: 5em;
   padding: 1em 20px;
   position: relative;
@@ -410,8 +409,8 @@ td {
 }
 
 #g-footer {
-  background-color: #1B676B;
-  border-top: 1px solid #ccc;
+  background-color: #556270;
+  border-top: 1px solid #FF6B6B;
   margin-top: 20px;
   padding: 10px 20px;
 }
@@ -456,8 +455,8 @@ td {
 }
 
 #g-content #g-album-grid .g-item {
-  background-color: #519548;
-  border: 1px solid #1B676B;
+  background-color: #AAB0B7;
+  border: 1px solid white;
   float: left;
   padding: .6em 8px;
   position: relative;
@@ -873,11 +872,11 @@ ul.sf-menu li li li.sfHover ul {
 
 .sf-menu li li,
 .sf-menu li li ul li {
-  background-color: #BEE6E5;
+  background-color: #4ECDC4;
 }
 
 .sf-menu li:hover {
-  background-color: #BEE6E5;
+  background-color: #4ECDC4;
 }
 
 /* jQuery UI Dialog ~~~~~~~~~~~~~~~~~~~~~~ */
@@ -1022,7 +1021,7 @@ div#g-action-status {
 }
 
 .g-paginator .g-info {
-  color: #88C425;
+  color: #C7F464;
   background: none;
   padding: .2em 0;
   text-align: center;
